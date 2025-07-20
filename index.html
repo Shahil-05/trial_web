@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Stylish Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background">
+    <div class="overlay">
+      <h1>Welcome to My Website</h1>
+      <p>Scroll down to see more</p>
+    </div>
+  </div>
+
+  <section class="video-section">
+    <h2>Featured Video</h2>
+    <video controls autoplay muted loop>
+      <source src="https://youtu.be/sQ22pm-xvrE?si=MMXzz64RIQD2D81f" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" id="name" required />
+      <input type="email" placeholder="Your Email" id="email" required />
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="links">
+      <a href="mailto:example@gmail.com">Email Me</a> |
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
